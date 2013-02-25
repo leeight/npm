@@ -8,7 +8,7 @@ i=0
 
 # get the location of this file.
 unset CDPATH
-CONFFILE=$(cd $(dirname "$0"); pwd -P)/npmrc
+CONFFILE=$(cd $(dirname "$0"); pwd -P)/edprc
 
 while [ $# -gt 0 ]; do
   conf="$1"

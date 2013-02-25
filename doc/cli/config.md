@@ -33,7 +33,7 @@ work the same.
 
 ### Per-user config file
 
-`$HOME/.npmrc` (or the `userconfig` param, if set above)
+`$HOME/.edprc` (or the `userconfig` param, if set above)
 
 This file is an ini-file formatted list of `key = value` parameters.
 Environment variables can be replaced using `${VARIABLE_NAME}`. For example:
@@ -42,13 +42,13 @@ Environment variables can be replaced using `${VARIABLE_NAME}`. For example:
 
 ### Global config file
 
-`$PREFIX/etc/npmrc` (or the `globalconfig` param, if set above):
+`$PREFIX/etc/edprc` (or the `globalconfig` param, if set above):
 This file is an ini-file formatted list of `key = value` parameters.
 Environment variables can be replaced as above.
 
 ### Built-in config file
 
-`path/to/npm/itself/npmrc`
+`path/to/npm/itself/edprc`
 
 This is an unchangeable "builtin"
 configuration file that npm keeps consistent across updates.  Set
@@ -380,14 +380,14 @@ Operates in "global" mode, so that packages are installed into the
 
 ### globalconfig
 
-* Default: {prefix}/etc/npmrc
+* Default: {prefix}/etc/edprc
 * Type: path
 
 The config file to read for global config options.
 
 ### globalignorefile
 
-* Default: {prefix}/etc/npmignore
+* Default: {prefix}/etc/edpignore
 * Type: path
 
 The config file to read for global ignore patterns to apply to all users
@@ -499,7 +499,7 @@ if one of the two conditions are met:
 * Values: "silent", "win", "error", "warn", "http", "info", "verbose", "silly"
 
 What level of logs to report.  On failure, *all* logs are written to
-`npm-debug.log` in the current working directory.
+`edp-debug.log` in the current working directory.
 
 Any logs of a higher level than the setting are shown.
 The default is "http", which shows http, warn, and error output.
@@ -802,14 +802,14 @@ The username on the npm registry.  Set with `npm adduser`
 
 ### userconfig
 
-* Default: ~/.npmrc
+* Default: ~/.edprc
 * Type: path
 
 The location of user-level configuration settings.
 
 ### userignorefile
 
-* Default: ~/.npmignore
+* Default: ~/.edpignore
 * Type: path
 
 The location of a user-level ignore file to apply to all packages.

@@ -1,5 +1,6 @@
 *.swp
 npm-debug.log
+edp-debug.log
 /test/bin
 /test/output.log
 /test/*/*/node_modules
@@ -14,6 +15,7 @@ npm-debug.log
 /man/
 /doc/*/index.md
 /npmrc
+/edprc
 /release/
 /npm-*.tgz
 /node_modules/npm-registry-client/test/fixtures

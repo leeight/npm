@@ -284,7 +284,7 @@ cd "$TMP" \
         (exit 0)
       else
         echo "./configure "$configures
-        echo "$configures" > npmrc
+        echo "$configures" > edprc
       fi) \
   && (if [ "$make" = "NOMAKE" ]; then
         (exit 0)

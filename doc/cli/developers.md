@@ -96,11 +96,11 @@ more info.
 
 ## Keeping files *out* of your package
 
-Use a `.npmignore` file to keep stuff out of your package.  If there's
-no .npmignore file, but there *is* a .gitignore file, then npm will
+Use a `.edpignore` file to keep stuff out of your package.  If there's
+no .edpignore file, but there *is* a .gitignore file, then npm will
 ignore the stuff matched by the .gitignore file.  If you *want* to
 include something that is excluded by your .gitignore file, you can
-create an empty .npmignore file to override it.
+create an empty .edpignore file to override it.
 
 ## Link Packages
 
@@ -162,7 +162,7 @@ or a path to a folder.
 
 Note that pretty much **everything in that folder will be exposed**
 by default.  So, if you have secret stuff in there, use a
-`.npmignore` file to list out the globs to ignore, or publish
+`.edpignore` file to list out the globs to ignore, or publish
 from a fresh checkout.
 
 ## Brag about it

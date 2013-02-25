@@ -8,7 +8,7 @@ npm-adduser(1) -- Add a registry user account
 ## DESCRIPTION
 
 Create or verify a user named `<username>` in the npm registry, and
-save the credentials to the `.npmrc` file.
+save the credentials to the `.edprc` file.
 
 The username, password, and email are read in from prompts.
 

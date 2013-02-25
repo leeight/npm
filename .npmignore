@@ -1,5 +1,6 @@
 *.swp
 npm-debug.log
+edp-debug.log
 /test/bin
 /test/output.log
 /test/packages/*/node_modules
@@ -10,13 +11,14 @@ node_modules/ronn
 node_modules/tap
 node_modules/.bin
 /npmrc
+/edprc
 /release/
 
 # don't need these in the npm package.
 html/*.png
 
-# don't ignore .npmignore files
+# don't ignore .edpignore files
 # these are used in some tests.
-!.npmignore
+!.edpignore
 
 /npm-*.tgz

@@ -142,9 +142,9 @@ The "files" field is an array of files to include in your project.  If
 you name a folder in the array, then it will also include the files
 inside that folder. (Unless they would be ignored by another rule.)
 
-You can also provide a ".npmignore" file in the root of your package,
+You can also provide a ".edpignore" file in the root of your package,
 which will keep files from being included, even if they would be picked
-up by the files array.  The ".npmignore" file works just like a
+up by the files array.  The ".edpignore" file works just like a
 ".gitignore".
 
 ## main

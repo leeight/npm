@@ -6,5 +6,5 @@
   , "sub/include2"
   , "sub/include4"
   , "test.sh"
-  , ".npmignore" ]
+  , ".edpignore" ]
 , "scripts":{"test":"bash test.sh"}}

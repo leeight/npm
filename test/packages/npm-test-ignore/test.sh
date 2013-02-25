@@ -1,4 +1,4 @@
-x=`find . | grep ignore | grep -v npmignore`
+x=`find . | grep ignore | grep -v edpignore`
 if [ "$x" != "" ]; then
   echo "ignored files included: $x"
   exit 1

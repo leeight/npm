@@ -83,12 +83,12 @@ npm is extremely configurable.  It reads its configuration options from
   Set any config by prefixing the name in an environment variable with
   `npm_config_`.  For example, `export npm_config_key=val`.
 * User Configs:  
-  The file at $HOME/.npmrc is an ini-formatted list of configs.  If
+  The file at $HOME/.edprc is an ini-formatted list of configs.  If
   present, it is parsed.  If the `userconfig` option is set in the cli
   or env, then that will be used instead.
 * Global Configs:  
-  The file found at ../etc/npmrc (from the node executable, by default
-  this resolves to /usr/local/etc/npmrc) will be parsed if it is found.
+  The file found at ../etc/edprc (from the node executable, by default
+  this resolves to /usr/local/etc/edprc) will be parsed if it is found.
   If the `globalconfig` option is set in the cli, env, or user config,
   then that file is parsed instead.
 * Defaults:  
@@ -127,7 +127,7 @@ When you find issues, please report them:
   <npm-@googlegroups.com>
 
 Be sure to include *all* of the output from the npm command that didn't work
-as expected.  The `npm-debug.log` file is also helpful to provide.
+as expected.  The `edp-debug.log` file is also helpful to provide.
 
 You can also look for isaacs in #node.js on irc://irc.freenode.net.  He
 will no doubt tell you to put the output in a gist or email.

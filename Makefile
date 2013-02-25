@@ -45,7 +45,7 @@ link: uninstall
 	node cli.js link -f
 
 clean: doc-clean uninstall
-	rm npmrc
+	rm edprc
 	node cli.js cache clean
 
 uninstall:

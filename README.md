@@ -122,8 +122,8 @@ To remove cruft left behind by npm 0.x, you can use the included
 npm uses two configuration files, one for per-user configs, and another
 for global (every-user) configs.  You can view them by doing:
 
-    npm config get userconfig   # defaults to ~/.npmrc
-    npm config get globalconfig # defaults to /usr/local/etc/npmrc
+    npm config get userconfig   # defaults to ~/.edprc
+    npm config get globalconfig # defaults to /usr/local/etc/edprc
 
 Uninstalling npm does not remove configuration files by default.  You
 must remove them yourself manually if you want them gone.  Note that
@@ -226,7 +226,7 @@ When you find issues, please report them:
   <npm-@googlegroups.com>
 
 Be sure to include *all* of the output from the npm command that didn't work
-as expected.  The `npm-debug.log` file is also helpful to provide.
+as expected.  The `edp-debug.log` file is also helpful to provide.
 
 You can also look for isaacs in #node.js on irc://irc.freenode.net.  He
 will no doubt tell you to put the output in a gist or email.
