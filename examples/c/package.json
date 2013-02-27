@@ -1,7 +1,7 @@
 {
-  "name": "showcase2",
+  "name": "c",
   "version": "0.0.1",
   "dependencies": {
-    "showcase1": "0.0.1"
+    "a": "0.0.1"
   }
 }

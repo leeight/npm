@@ -2,6 +2,8 @@
   "name": "showcase1",
   "version": "0.0.1",
   "dependencies": {
-    "semver": "~1.1.2"
+    "a": "0.0.1",
+    "b": "0.0.1",
+    "c": "0.0.1"
   }
 }
