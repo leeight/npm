@@ -13,7 +13,7 @@ if (typeof WScript !== "undefined") {
 }
 
 
-process.title = "npm"
+process.title = "edp"
 
 var log = require("npmlog")
 log.pause() // will be unpaused when config is loaded.
