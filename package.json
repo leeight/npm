@@ -1,6 +1,6 @@
 {
-  "version": "1.2.12",
-  "name": "npm",
+  "version": "0.0.1",
+  "name": "baidu-edp",
   "publishConfig": {
     "proprietary-attribs": false
   },
@@ -15,15 +15,15 @@
   "config": {
     "publishtest": false
   },
-  "homepage": "https://npmjs.org/doc/",
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "homepage": "http://edp.baidu.com/doc",
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me), leeight <leeight@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/isaacs/npm"
+    "url": "https://github.com/ecomfe/edp"
   },
   "bugs": {
-    "email": "npm-@googlegroups.com",
-    "url": "http://github.com/isaacs/npm/issues"
+    "email": "ecomfe-tech@baidu.com",
+    "url": "http://github.com/ecomfe/edp/issues"
   },
   "directories": {
     "doc": "./doc",
@@ -32,7 +32,7 @@
     "bin": "./bin"
   },
   "main": "./lib/npm.js",
-  "bin": "./bin/npm-cli.js",
+  "bin": "./bin/edp-cli.js",
   "dependencies": {
     "semver": "~1.1.2",
     "ini": "~1.1.0",
@@ -118,14 +118,14 @@
   "scripts": {
     "test": "node ./test/run.js && tap test/tap/*.js",
     "tap": "tap test/tap/*.js",
-    "prepublish": "node bin/npm-cli.js prune ; rm -rf test/*/*/node_modules ; make -j4 doc",
-    "dumpconf": "env | grep npm | sort | uniq",
-    "echo": "node bin/npm-cli.js"
+    "prepublish": "rm -rf test/*/*/node_modules",
+    "dumpconf": "env | grep edp | sort | uniq",
+    "echo": "node bin/edp-cli.js"
   },
   "licenses": [
     {
       "type": "MIT +no-false-attribs",
-      "url": "https://github.com/isaacs/npm/raw/master/LICENSE"
+      "url": "https://github.com/ecomfe/edp/raw/master/LICENSE"
     }
   ]
 }

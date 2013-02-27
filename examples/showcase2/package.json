@@ -1,0 +1,7 @@
+{
+  "name": "showcase2",
+  "version": "0.0.1",
+  "dependencies": {
+    "baidu-edp": "0.0.1"
+  }
+}
