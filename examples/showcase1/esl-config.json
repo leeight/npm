@@ -9,11 +9,6 @@
             "location": "lib/a/0.0.2"
         },
         {
-            "name": "a",
-            "location": "lib/a/0.0.3",
-            "main": "./src/main.js"
-        },
-        {
             "name": "b",
             "location": "lib/b/0.0.1"
         },
