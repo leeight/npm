@@ -1,0 +1,9 @@
+{
+    "packages": [
+        {
+            "name": "a",
+            "location": "lib/a/0.0.3",
+            "main": "./src/main.js"
+        }
+    ]
+}

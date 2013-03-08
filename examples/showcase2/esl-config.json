@@ -9,8 +9,8 @@
             "location": "lib/c/0.0.1"
         },
         {
-            "name": "e",
-            "location": "lib/e/0.0.2"
+            "name": "showcase1",
+            "location": "lib/showcase1/0.0.1"
         },
         {
             "name": "a",
@@ -19,11 +19,6 @@
         {
             "name": "a",
             "location": "lib/a/0.0.1"
-        },
-        {
-            "name": "a",
-            "location": "lib/a/0.0.3",
-            "main": "./src/main.js"
         }
     ]
 }
